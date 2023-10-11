@@ -19,7 +19,7 @@ public class BottomSheetAdapter extends RecyclerView.Adapter<BottomSheetAdapter.
     Context context;
     ArrayList<ArrayModel> arrayModels;
 
-    public BottomSheetAdapter(View.OnClickListener context, ArrayList<ArrayModel> arrayModels) {
+    public BottomSheetAdapter(Context context, ArrayList<ArrayModel> arrayModels) {
         this.context = context;
         this.arrayModels = arrayModels;
     }
